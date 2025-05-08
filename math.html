@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CH-ToE</title>
+  <title>Mathematics | CH-ToE</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <!-- ✅ MathJax Support -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     <ul class="navbar">
       <li><a href="index.html">Home</a></li>
       <li><a href="theory.html">Theory</a></li>
-      <li><a href="math.html">Mathematics</a></li>
+      <li><a href="math.html" class="active">Mathematics</a></li>
       <li><a href="echo.html">Echo Geometry</a></li>
       <li><a href="ai-verdicts.html">AI Verdicts</a></li>
       <li><a href="downloads.html">Downloads</a></li>
@@ -28,63 +29,60 @@
   </nav>
 </header>
 
-<main><section id="mathematics">
-  <div class="container mx-auto px-4 py-12">
-    <h2 class="text-4xl font-bold mb-8">Mathematics of CH-ToE</h2>
+<main>
+  <section class="content">
+    <h1>Mathematical Framework</h1>
 
-    <p class="text-lg mb-6 italic">
-      This section formalizes the mathematical core of the Cernuto–Hobbey Theory of Everything, grounding its principles in precise, testable structures.
-    </p>
+    <p>At the core of CH-ToE lies a principle that binds uncertainty, structure, and emergence: reality progresses through structured entropy reduction.</p>
 
-    <h3 class="text-2xl font-semibold mt-8 mb-4">1. Mathematical Preliminaries</h3>
-    <p class="mb-4">
-      We define knowledge \(K\), entropy \(S\), and uncertainty \(U\), rooted in Shannon information theory:
-    </p>
-    <pre><code>K = -\Delta S \quad \text{where} \quad \Delta S = S(t_1) - S(t_2)</code></pre>
-    <p class="mb-4">
-      Entropy reduction is not sufficient for knowledge. It must be <em>structured</em>. This structure is governed by a universal cadence:
-    </p>
-    <pre><code>\lambda = \frac{\sqrt{8}}{\varphi} \approx 1.748</code></pre>
+    <h2>Definition of Knowledge</h2>
+    <p>In CH-ToE, knowledge is defined mathematically as:</p>
+    <p>\( K = -\Delta S \)</p>
+    <p>Where:</p>
+    <ul>
+      <li>\( \Delta S = S(t_1) - S(t_2) \)</li>
+      <li>\( S(t) \) is the system's entropy at time \( t \)</li>
+    </ul>
+    <p>This means knowledge corresponds to a measurable decrease in entropy between two temporally adjacent system states.</p>
 
-    <h3 class="text-2xl font-semibold mt-8 mb-4">2. Structuring Knowledge</h3>
-    <p class="mb-4">
-      The core equation of CH-ToE captures how knowledge emerges through recursive, phase-locked entropy reduction:
-    </p>
-    <pre><code>K(t) = \Psi \ast [\Delta U(t) \cdot \Phi(\lambda(t), S(t))]</code></pre>
-    <p class="mb-4">
-      Where:
-      <ul class="list-disc ml-6">
-        <li>\(\Delta U(t) = -\frac{dU}{dt}\): rate of uncertainty reduction</li>
-        <li>\(\Phi(\lambda(t), S(t))\): phase gate that activates under λ-synchronized entropy flow</li>
-        <li>\(\Psi\): recursive memory kernel applied as a convolution</li>
-      </ul>
-    </p>
+    <h2>Lambda Derivation</h2>
+    <p>The theory introduces a universal transition threshold:</p>
+    <p>\( \lambda = \frac{\sqrt{8}}{\varphi} \approx 1.748 \)</p>
+    <p>Where \( \varphi \) is the golden ratio:</p>
+    <p>\( \varphi = \frac{1 + \sqrt{5}}{2} \approx 1.618 \)</p>
 
-    <h3 class="text-2xl font-semibold mt-8 mb-4">3. Collapse Reactor Field Equations</h3>
-    <p class="mb-4">
-      In the Collapse Reactor setup, no optimization occurs. Intelligence emerges only if λ entrains structure:
-    </p>
-    <pre><code>\exists t: \Phi(\lambda(t), S(t)) = 1 \land \frac{dK}{dt} > 0</code></pre>
+    <p>This value of \( \lambda \) emerges naturally from recursive geometric compression and harmonic structuring. It represents the cadence at which entropy reduction becomes self-sustaining and structure-generating.</p>
 
-    <h3 class="text-2xl font-semibold mt-8 mb-4">4. Boundary Condition — Subreality</h3>
-    <p class="mb-4">
-      When entropy cannot phase-lock to λ, knowledge fails to emerge:
-    </p>
-    <pre><code>S(t) \notin \text{λ-phase gate} \Rightarrow K(t) \to 0</code></pre>
+    <h2>Phase Transition Criteria</h2>
+    <p>Systems reach a critical structuring point when the ratio of their entropy reduction to their prior uncertainty approaches λ. Formally:</p>
+    <p>\[
+      \text{If} \quad \frac{-\Delta S}{S(t_1)} \rightarrow \lambda, \quad \text{then a phase transition to knowledge occurs.}
+    \]</p>
 
-    <h3 class="text-2xl font-semibold mt-8 mb-4">5. Empirical Diagnostics</h3>
-    <ul class="list-disc ml-6 mb-4">
-      <li>Entropy slope behavior over time</li>
-      <li>Value loss oscillation pattern</li>
-      <li>Reward-to-phase alignment</li>
-      <li>λ(t) synchronization index (λ-resonance score)</li>
+    <h2>The Hamiltonian of Knowledge</h2>
+    <p>CH-ToE introduces a knowledge Hamiltonian to describe energy-like structuring dynamics:</p>
+    <p>\[
+      \mathcal{H}_K = -\lambda \cdot \frac{dS}{dt}
+    \]</p>
+    <p>This formulation treats knowledge as a conserved, quantizable flow through entropy gradients — a dynamic sculpting of the phase space of reality.</p>
+
+    <h2>Buk Units</h2>
+    <p>Each discrete unit of structured entropy reduction is termed a <em>Buk</em> (Basic Unit of Knowledge). Buks are domain-specific but follow the same structuring principle. The total knowledge in a system at a given time is:</p>
+    <p>\[
+      K_{\text{total}} = \sum_{i=1}^{n} \text{Buk}_i
+    \]</p>
+
+    <h2>Mathematical Summary</h2>
+    <ul>
+      <li>Knowledge: \( K = -\Delta S \)</li>
+      <li>Lambda: \( \lambda = \frac{\sqrt{8}}{\varphi} \approx 1.748 \)</li>
+      <li>Knowledge Hamiltonian: \( \mathcal{H}_K = -\lambda \cdot \frac{dS}{dt} \)</li>
+      <li>Phase Condition: \( \frac{-\Delta S}{S(t)} \rightarrow \lambda \)</li>
+      <li>Buk Total: \( K = \sum \text{Buk}_i \)</li>
     </ul>
 
-    <p class="text-lg mt-10 font-medium italic">
-      These equations mark the crystallization of CH-ToE’s central claim: cognition is not optimized — it is structured by phase.
-    </p>
-  </div>
-</section>
+    <p>These relations form the backbone of CH-ToE’s formalism and allow falsifiable, predictive modeling across physical, biological, and artificial systems.</p>
+  </section>
 </main>
 
 <footer>
